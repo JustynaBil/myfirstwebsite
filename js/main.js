@@ -12,7 +12,7 @@ $('#btn').click(function() {
       method: "POST",
       data: {
              name: name.value,
-             email: email.value,
+             email: inputEmail.value,
              message: message.value
              }, 
       dataType: "json"
