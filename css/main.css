@@ -1,0 +1,267 @@
+html {
+  height: 100%;
+}
+
+body {
+    margin:0;
+    height: 100%;
+    font-family: 'Playfair Display', serif;
+    }
+   .main {
+    margin: 0;
+    position: relative;
+    background-image: url("../img/myfoto.jpg");
+    height:100%;
+    max-height:700px;
+    max-width:2500px;
+    background-size: cover;
+    background-position:center center;
+    overflow: hidden;
+    }
+    
+  .scroll {
+position:absolute;
+    bottom:80px;
+    right:50px;
+    z-index:100;
+    background-color:black;
+    opacity:0.5;
+    width:140px;
+    height:20px;
+  }
+  .sidebar {
+    background-color:white;
+    opacity:0.5;
+    margin-top:0;
+    margin-left: 30px;
+    width:170px;
+    height:100%;
+    position: relative;
+    }
+     
+  .sidebar ul {
+    display:none;
+    font-size: 20px;
+    color: black;
+    top:55px;
+    position:relative; 
+    width:140px;
+    height:350px;
+    margin-top:0;
+    opacity: 1;
+    list-style-type:none;
+    }
+  .sidebar ul li {
+    padding-top:10px;
+  }
+  .sidebar .menu {
+    display:inline-block;
+    width:110px;
+    height:40px;
+    padding:7px;
+    padding-left:10px;
+    border:1px solid black;
+    position:relative;
+    top:55px;
+    left:30px;
+    font-size:22px;
+    background-color:black;
+  }
+  .sidebar .menu::before  {
+    content:"\f0c9";
+    font-family:FontAwesome;
+    padding-right:5px;
+    
+  }
+.sidebar a {
+    color: black;
+    text-decoration: none;
+    opacity: 1;
+    }
+    
+.sidebar a:visited {
+    color: green;
+    }
+    
+.sidebar a:hover { 
+    text-decoration: underline;
+    }
+  .list {
+  color: black;
+    }
+    
+header {
+    margin: 40px 0 0;
+    position: relative;
+    text-align: center;
+    background-color:#e6e3dc;
+    background-size: cover;
+    overflow: hidden;
+    width:100%;
+    max-height:400px;
+    }
+
+hr {
+    width: 25%; 
+    margin-top:20px;
+    margin: 0 auto 10px ;
+    opacity:0.3;
+    height: 1px; 
+    background: black; 
+    border: 0; 
+}
+ h1 { 
+   letter-spacing: 0.7em;
+   font-size: 2.5em;
+   text-shadow: 1px 1px 10px #3B3B3B;
+   font-weight: 300;
+   background: rgba(1, 1, 1, 0.1);
+   margin-bottom:50px;
+   padding: 0.3em;
+   color: white;
+   padding-left: 1em;
+   }
+.who p {
+  line-height:1.5;
+  font-size:18px;
+  margin-bottom:20px;
+}
+blockquote p{
+  font-size:30px;
+}
+ 
+#interests {
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 105px;
+  background: white;
+  position: relative;
+  text-align: center;
+  border-color: white;
+  position: relative;
+  }
+  #interests  i{
+   margin-top:20px;
+   margin-bottom:20px;
+  }
+#interests .bold 
+{ font-weight: 600;
+}
+
+#interests i {
+    font-size: 4em;
+    color: #737373;
+    }
+
+#interests h3{ 
+    font-weight: 400;
+    color: #4c4c4c;
+    letter-spacing: 0.2em;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    }
+#interests p {
+
+    color: #595959;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1em; 
+    letter-spacing: 1px;
+    font-weight: 300; 
+    font-size: 15px;
+    line-height: 25px;
+    }
+    
+#interests .dash {
+    background: lightgray;
+    }
+ .carousel {
+   margin-bottom:100px;
+   margin-top:50px;
+     }
+ .carousel-control{
+       color:black;
+     }
+ .carousel-control.left {
+   background-image:none;
+ }
+ .carousel-control.right{
+   background-image:none;
+ }
+ .quotes-slide{
+     height:250px;
+    }
+    .contacts {
+      width:100%;
+    }
+.contacts h1{
+  text-align:center;
+}
+.contact-form{
+  width:100%;
+}
+.form-address{
+  width:40%;
+  margin: 0 auto;
+}
+.form-address input[type="text"],
+.form-address input[type="email"],
+.form-address textarea{
+  width:100%;
+}
+.btn{
+  width:100%;
+  height:30px;
+}
+.form-address label[for="name"]::before{
+  content:'\f007';
+  font-family:FontAwesome;
+  padding-right:10px;
+  font-size:16px;
+}
+address {
+  text-align:center;
+  margin-top:50px;
+}
+.main-footer .social h3 {
+ text-align:left;
+ font-size:18px;
+  padding: 15px;
+  float:left;
+   margin:0;
+  letter-spacing: 0.7em;
+   text-shadow: 1px 1px 10px #3B3B3B; 
+   color: white;
+   padding-left: 1em;
+}
+.main-footer .social{
+  background-color:rgba(1, 1, 1, 0.1);
+  height:45px;
+
+}
+.icon-contact{
+  float:right;
+  margin:0;
+  font-size:30px;
+  padding-right: 1em;
+  color:white;
+}
+.copyright {
+     background: rgba(1, 1, 1, 0.1);
+     height:28px;
+}
+    .copyright h6 { 
+   letter-spacing: 0.7em;
+   font-size: 1em;
+   text-align: right;
+   text-shadow: 1px 1px 10px #3B3B3B;
+   color: white;
+   padding:5px;
+   }
+   .icon-copyright {
+     display:inline-block;
+    margin-top:2px;
+   }
+
+
