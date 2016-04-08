@@ -22,14 +22,15 @@ body {
     }
     
   .scroll {
-position:absolute;
+    position:absolute;
     bottom:80px;
     right:50px;
     z-index:100;
-    background-color:black;
+    background-color:#D3D3D3;
     opacity:0.5;
     width:140px;
     height:20px;
+    color:white;
   }
   .sidebar {
     background-color:white;
