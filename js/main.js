@@ -1,3 +1,4 @@
+//carousel
 $(document).ready(function(){
   $('#menu').mouseover(function(){
     $('#nav-menu').css('display','block');
@@ -6,6 +7,8 @@ $(document).ready(function(){
     interval: 5000
   });
 });
+
+//submit
 $('#btn').click(function() {
   $.ajax({
       url: "https://formspree.io/bolesja@ukr.net",  
