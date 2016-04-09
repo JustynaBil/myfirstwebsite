@@ -11,7 +11,7 @@ $(document).ready(function(){
 //submit
 $('#btn').click(function() {
   $.ajax({
-      url: "https://formspree.io/bolesja@ukr.net",  
+      url: "https://formspree.io/bilyachjustina@gmail.com",  
       method: "POST",
       data: {
              name: name.value,
