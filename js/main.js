@@ -21,5 +21,5 @@ $('#btn').click(function() {
       dataType: "json"
   }).done(function() {
      $('#submit').html('<h1>Thanks for attention</h1>')
-  } );
+  });
 });
