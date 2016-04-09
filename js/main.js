@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('#nav-menu').css('display','block');
   });
   $('.carousel').carousel({
-    interval: 4500
+    interval: 1000
   });
 });
 
