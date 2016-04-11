@@ -57,7 +57,7 @@ body {
     color: black;
     top:55px;
     position:relative; 
-    width:140px;
+    width:120px;
     height:350px;
     margin-top:0;
     opacity: 1;
@@ -65,12 +65,12 @@ body {
 }
 
 .sidebar ul li {
-    padding-top:10px;
+    padding-top:20px;
 }
 
 .sidebar .menu {
     display:inline-block;
-    width:110px;
+    width:100px;
     height:40px;
     padding:7px;
     padding-left:10px;
@@ -79,8 +79,6 @@ body {
     top:55px;
     left:30px;
     font-size:30px;
-    content:"\f0c9";
-    font-family:FontAwesome;
 }
 
 .sidebar .menu::before  {
