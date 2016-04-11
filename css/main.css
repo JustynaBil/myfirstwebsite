@@ -79,6 +79,8 @@ body {
     top:55px;
     left:30px;
     font-size:30px;
+    content:"\f0c9";
+    font-family:FontAwesome;
 }
 
 .sidebar .menu::before  {
