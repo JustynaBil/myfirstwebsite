@@ -52,8 +52,9 @@ body {
     width:150px;
     height:100%;
     position: relative;
+    letter-spacing: 1px;
 }
-     
+
 .sidebar ul {
     display:none;
     font-size: 20px;
