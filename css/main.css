@@ -225,11 +225,12 @@ blockquote p {
 .contacts {
     width:100%;
     margin-top:120px;
+    margin-bottom:50px;
 }
     
 .contacts h1 {
     text-align:center;
-    margin-bottom:120px;
+    margin-bottom:80px;
 }
 
 .contact-form {
