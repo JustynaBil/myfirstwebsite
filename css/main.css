@@ -258,7 +258,7 @@ blockquote p {
     font-size:16px;
 }
 .form-address label[for="email"]::before{
-    content:'\f007';
+    content:'\f003';
     font-family:FontAwesome;
     padding-right:10px;
     font-size:16px;
