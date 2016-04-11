@@ -45,7 +45,7 @@ body {
     background-color:white;
     opacity:0.5;
     margin-top:0;
-    margin-left: 0px;
+    margin-left: 30px;
     width:150px;
     height:100%;
     position: relative;
@@ -57,8 +57,9 @@ body {
     color: black;
     top:55px;
     position:relative; 
-    width:120px;
+    width:130px;
     height:350px;
+    margin-left:10px;
     margin-top:0;
     opacity: 1;
     list-style-type:none;
@@ -73,11 +74,11 @@ body {
     width:100px;
     height:40px;
     padding:7px;
-    padding-left:10px;
+    padding-left:0px;
     position:relative;
     border:white;
     top:55px;
-    left:20px;
+    left:0px;
     font-size:30px;
 }
 
