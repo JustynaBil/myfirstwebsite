@@ -257,6 +257,18 @@ blockquote p {
     padding-right:10px;
     font-size:16px;
 }
+.form-address label[for="email"]::before{
+    content:'\f007';
+    font-family:FontAwesome;
+    padding-right:10px;
+    font-size:16px;
+}
+.form-address label[for="message"]::before{
+    content:'f0e5';
+    font-family:FontAwesome;
+    padding-right:10px;
+    font-size:16px;
+}
 
 address {
     text-align:center;
