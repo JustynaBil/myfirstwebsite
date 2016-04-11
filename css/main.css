@@ -39,8 +39,8 @@ body {
 .scroll-icon {
     position:absolute;
     top:30px;
-    color:black;
-    font-size:26px;
+    color:white;
+    font-size:30px;
     
 }
 
@@ -52,7 +52,6 @@ body {
     width:150px;
     height:100%;
     position: relative;
-    letter-spacing: 1px;
 }
 
 .sidebar ul {
