@@ -88,6 +88,10 @@ body {
     padding-right:5px;
 }
 
+
+.flaticon-bottom4:before { content: "\e04c"; }
+
+
 .sidebar a {
     color: black;
     text-decoration: none;
